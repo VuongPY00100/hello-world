@@ -6,3 +6,9 @@
     <input type="password" name="#" id="#"> <hr>
     <input type="submit" value="Đăng nhập">
 </template>
+
+<script>
+export default {
+  name: 'Dangnhap'
+}
+</script>

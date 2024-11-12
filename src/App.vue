@@ -1,16 +1,17 @@
 <template>
-  <div>
-
-  </div>
+  <HelloWorld msg="OOO"/>
+  <HelloWorld msg="OOO-OOO"/>
 </template>
 
 <script>
-
+import HelloWorld from './components/HelloWorld.vue'
+import Dangnhap from './components/Dangnhap.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    HelloWorld,
+    Dangnhap
   }
 }
 </script>
